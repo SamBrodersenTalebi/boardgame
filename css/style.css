@@ -1,0 +1,106 @@
+.highlight {
+  background-color: lightblue;
+}
+#game {
+  display: flex;
+}
+
+#table {
+  flex: 0 0 80%;
+}
+
+#player-info {
+  flex: 1;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+td {
+  border: 1px solid #999;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  vertical-align: center;
+}
+
+h1 {
+  color: green;
+  text-align: center;
+}
+
+#button {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#player-info {
+  border: 1px solid black;
+  padding: 0 5px;
+  width: 25%;
+  float: right;
+}
+
+#table {
+  width: 75%;
+  float: left;
+}
+
+.hi {
+  color: blue;
+}
+
+.blocked {
+  background-color: black;
+}
+
+.weapon {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 62px;
+  height: 62px;
+}
+
+td .weapon {
+  /*background center image*/
+  /*crop the images to the same size*/
+  /*if there is a weapon and a player apply this rule (resize) hide*/
+  height: 60px;
+  width: 80px;
+}
+
+td .player {
+  height: 20px;
+  width: 80px;
+}
+
+.player {
+  text-align: center;
+}
+
+#active {
+  color: blue;
+  font-weight: bold;
+}
+
+#name span {
+  color: green;
+}
+
+#weapon span {
+  color: olive;
+}
+
+#life span {
+  color: red;
+}
+
+#damage span {
+  color: lightblue;
+}
+
+#player-info div {
+  margin-bottom: 15px;
+}
